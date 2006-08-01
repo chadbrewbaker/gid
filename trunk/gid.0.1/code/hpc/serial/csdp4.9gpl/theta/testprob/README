@@ -1,0 +1,35 @@
+This subdirectory contains a collection of test problems for theta.  
+Please note that the larger problems are large enough that you will not
+be able to solve them on machines with limited virtual storage.  For 
+example, problem g300 required 160 megabytes of virtual storage on 
+our Sun Ultra 1/170.  
+
+You can test that the code is working properly by issuing the command:
+ 
+  ../theta g50 >myg50.out 
+ 
+If your output isn't very similar to the output in g50.out, then something 
+is probably wrong with your installation of the code.
+
+The test problems in this directory were generated with rand_graph,
+using n=50 to n=300 nodes, and p=0.1.  The following table summarizes
+the results from running theta on these problems.
+
+ 
+Problem   nodes   edges      Theta 
+-----------------------------------
+g50          50     103   23.00000 
+g100        100     497   32.28792 
+g150        150    1105   42.16698 
+g200        200    1948   50.32122 
+g250        250    3027   57.23231 
+g300        300    4374   63.47709 
+
+
+
+
+
+
+
+
+

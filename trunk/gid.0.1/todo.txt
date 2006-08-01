@@ -1,0 +1,16 @@
+Things on the todo list:
+1. New graph invariants of course!
+
+2. Makefile automation.  We are in the process of automating  the build process.
+3. API standardization.  The API for writing graph invariants needs a common command line interface and internal graph data structures ASAP.
+
+4. webtools.  Tools for creating web pages and ebooks from SQL database files.
+
+5. analysis.  Tools for mining a SQL database.
+
+6. visualization. Tools for extracting graphs from a SQL database and outputting them in some image format.
+
+7. high performance.  The graph invariants are meant for batch processing of small graphs.  We would also like a collection of MPI programs for doing invariants on large graphs. Beta versions of MAX_CLIQUE and GRAPH_AUTO/ISOMORPHISM are in the works.  Hopefully we can draw on projects like NP-SPEC to create state of the art tools for computing NP-complete graph invariants.
+
+
+8. misc.  Former projects such as INGRID and GRAFFITI give us a lot of inspiration. A main goal of this project is automated conjecture making and theorem proving.

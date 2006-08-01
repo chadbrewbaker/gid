@@ -1,0 +1,5 @@
+This directory contains a test problem for csdp.  To test csdp, 
+ 
+   ../csdp theta1.dat-s
+ 
+The output should be similar to the output found in theta1.out.
