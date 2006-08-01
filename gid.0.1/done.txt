@@ -1,0 +1,57 @@
+VERT_CHROM:Vertex chromatic number
+VERT_CHROM_COUNT:The number of vertex partitions that yield legal colorings.
+VERT_ANTI_CHROM:Smallest number of partitions needed so that every partition is a clique.
+VERT_ANTI_CHROM_COUNT:The number of partitions such that every partition is a clique.
+
+
+MAX_CLIQUE:Largest induced complete graph
+CLIQUE_NUM:The number of cliques in a graph
+MAX_IND_SET:Largest set of verticies with no edges beteen them.
+IND_SET_NUM:The number of independent sets
+VERT_COVER:Size of the minimum set of verticies that touch all other verticies.
+
+
+MIN_METRIC_DIM:A subset of verts such that every u,x in V there is a w in the subset such that the length of the shortest path from u to w is different from the length of the shortest path from x to w.
+MIN_BANDWIDTH:Label verts 1,2,...,|V|. Bandwith is the edge with the greatest difference in labels
+MAX_BANDWIDTH:(THIS IS CRAP. It is the same as the Number of verts-1 in a connected graph*/
+MIN_LINEAR_ARRANGEMENT:Label verts 1,2,...,|V|. Minimize sum of edge differences in labels.
+MAX_LINEAR_ARRANGEMENT:Label verts 1,2,...,|V|. Maximize sum of edge differences in labels.
+
+MIN_LINE_CROSSING:Draw the graph on a line with a vertex at points 1,2,...,|V|. Minimize number of edge crossings.
+MAX_LINE_CROSSING:Draw the graph on a line with a vertex at points 1,2,...,|V|. Maximize number of edge crossings
+MIN_CIRCLE_CROSSING:Draw the graph on equidistant points of a circle. Minimize number of edge crossings.
+MAX_CIRCLE_CRISSING:Draw the graph on equidistant points of a circle. Maximize number of edge crossings.
+
+IRREGULARITY:The sum of edge weights, where weight is defined as the difference in degree.
+LOVASZ_THETA:Lovasz number of the graph-> MAX_CLIQUE<=LOVASZ<=VERT_CHROM
+
+
+MAX_DEG:The largest neighborhood of any vertex
+MIN_DEG:The smallest neighborhood of any vertex
+EDGES:The number of edges in the graph
+VERTS:The number of verticies in the graph
+TRIANGLES:The number of triangles.
+QUADS:The number of complete subgraphs on 4 verticies
+
+DISTANCE_SUM:The sum of distances between all pairs of verticies.
+CLOSER_PRODUCT:let closer(u,v) be the number of verticies closer to u than v.  We want the sum over all edges (closer(u,v)*closer(v,u))
+CLOSER_DIFF:let closer(u,v) be the number of verticies closer to u than v. We want the sum over all edges ABS(closer(u,v)-closer(v,u))
+
+
+DIAMETER:The greatest distance bewtween any two verticies in the graph
+RADIUS:The vertex with the greatest distance to any other vertex minimized. Radius is the distance.
+CENTER_SUM:The vertex with the lowest sum of distances to all other verticies. This sum is CENTER_SUM.
+OUTER_SUM:The vertex with the highest sum of distances to all other verticies. This sum is OUTER_SUM.
+
+MAX_CYCLE:Largest cycle in the graph. 0 if no 3 or bigger cycle is found.(Circumfrence)
+MIN_CYCLE:MINIMAL CYCLE. 0 if no three or bigger cycle is found (Girth)
+CYCLE_NUM:The number of cycles in the graph.
+ODD_CYCLES:The number of odd cycles.
+
+MIN_MARTIN_CODE:Martins paper. The smallest set C of the verticies such that BALL(V)\cap C is nonempty, and for two verts i,j  BALL(i)\cap C != BALL(j)\cap C
+
+KOCKAY_PARTITIONS:The number of partions created by repeatedly spliting partions based on their number of edges to current partitoins in the graph
+
+MIN_GENUS:(REALLY SLOW)The surface with the least holes that has an orientable emedding in.(Open Problem from Mohar and Thomassen: genus(K_{3,3,3,3})? Is genus(K_{3,3,3,3})<4?)http://www.csr.uvic.ca/~wendym/torus/embedding.html
+
+RANDIC_INDEX:Sum of vertex edge where weight of edge xy is 1/(sqrt(deg(x)*deg(y)))

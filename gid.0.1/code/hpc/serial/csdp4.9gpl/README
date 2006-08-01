@@ -1,0 +1,29 @@
+Copyright 2004, Brian Borchers.  This copy of CSDP 4.9 is made
+available under the GNU Public License.  See gpl.txt for
+the details of the GPL.
+
+This file includes source for a C code for SDP that uses BLAS and
+LAPACK subroutines.  The directories are as follows:
+
+  doc                  documentation.
+
+  lib                  C source for libsdp.a.
+
+  solver               C source for a program that reads in problems in
+                       SDPA sparse format and solves them.  The subdirectory
+                       testprob contains a test problem.  
+
+  theta                A code for computing the Lovasz Theta number of 
+                       a graph.  The theta code solves this problem directly.
+                       A program called graphtoprob can be used to produce
+                       a problem file in SDPA sparse format.  Also includes a 
+                       random graph generator and a program to compute the 
+                       complement of a graph.  The subdirectory testprob 
+                       contains a number of test problems.  
+
+  matlab               MATLAB routines for interfacing to CSDP.  
+
+Installation:  See the User's Guide in the doc directory for instructions.
+
+
+
