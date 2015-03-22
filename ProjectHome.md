@@ -1,0 +1,1 @@
+A collection of UNIX filters for computing graph invariants such as maximum degree, maximum clique, k-colorability, etc.
